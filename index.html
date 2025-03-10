@@ -63,3 +63,81 @@
     </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Conference 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Tech Conference 2025</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About the Conference</h2>
+        <p>Join us for a three-day deep dive into the latest technology trends.</p>
+        <button id="show-modal">Learn More</button>
+    </section>
+
+    <section id="schedule">
+        <h2>Schedule</h2>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Session</th>
+                <th>Speaker</th>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>Keynote Speech</td>
+                <td>Dr. Jane Smith</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="speakers">
+        <h2>Meet the Speakers</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="speaker1.jpg" alt="Speaker 1">
+                <h3>Dr. Jane Smith</h3>
+                <p>AI Expert</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tech Conference. All rights reserved.</p>
+    </footer>
+
+    <div id="modal" class="hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            <p>More information about the event.</p>
+        </div>
+    </div>
+</body>
+</html>
